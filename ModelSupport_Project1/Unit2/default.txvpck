@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="54lcocfqchrh6wham_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="380,80,216,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TConnection.ADOConnection1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.GetConnection1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.create()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="96,83,161,175" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.DBGrid1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.DataSource1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.ADOQuery1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Connection" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Connection">
+        <property name="sourceAnchor" value="257,139" />
+        <property name="targetAnchor" value="380,139" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

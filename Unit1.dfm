@@ -14,11 +14,37 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Button1: TButton
-    Left = 128
-    Top = 72
+    Left = 8
+    Top = 8
     Width = 75
     Height = 25
     Caption = 'Button1'
     TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 48
+    Top = 64
+    Width = 320
+    Height = 120
+    DataSource = DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuery1
+    Left = 264
+    Top = 16
+  end
+  object ADOQuery1: TADOQuery
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'SELECT * FROM db.new_table;')
+    Left = 192
+    Top = 16
   end
 end
